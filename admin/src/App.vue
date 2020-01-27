@@ -1,10 +1,17 @@
 <template>
-  <div id="app">
+  <div id="#app">
     <transition>
       <router-view />
     </transition>
   </div>
 </template>
+
+<script>
+
+export default {
+  name: 'app',
+}
+</script>
 
 <style>
 @import url("https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css");
